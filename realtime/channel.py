@@ -4,7 +4,7 @@ import asyncio
 import json
 from typing import Any, List, Dict, TYPE_CHECKING, NamedTuple
 
-from realtime.types import Callback
+from .types import Callback
 
 if TYPE_CHECKING:
     from realtime.connection import Socket
